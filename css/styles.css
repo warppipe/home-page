@@ -1,0 +1,142 @@
+body {
+  background-color: #d7d7d7;
+  font: 400 1.438em/1.38 Muli;
+  color: #a1a1a1;
+}
+
+.gamecube-online {
+  float: left;
+  clear: both;
+  width: 96.5915812302%;
+  min-height: 81px;
+  margin-left: 2.32595%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #a1a1a1;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 717px;
+  min-height: 111px;
+  border-top: 4px solid #f1f1f1;
+  border-bottom: 4px solid rgb(241, 241, 241);
+  background-color: #7d7d7d;
+}
+
+.sm {
+  float: left;
+  clear: both;
+  width: 96.5299684542%;
+  min-height: 81px;
+  margin: 92px 0 0 2.32595%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #a1a1a1;
+}
+
+.warp-pipe {
+  float: left;
+  width: 57.9029733959%;
+  min-height: 111px;
+  margin: 27px 0 0 78px;
+  font-size: 3.174em;
+  line-height: 1.38;
+  color: #343434;
+}
+
+.warp-zone {
+  float: left;
+  width: 96.5918618988%;
+  min-height: 81px;
+  margin: 74px 0 0 2.32595%;
+  font-size: 1.435em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #d7d7d7;
+}
+
+.welcome {
+  position: relative;
+  width: 65.8333333333%;
+  height: 646px;
+  margin: 29px auto 0;
+}
+
+._container {
+  position: relative;
+  width: 621px;
+  max-width: 715px;
+  height: 166px;
+  margin: 90px auto 0;
+}
+
+.gamecube-online a,
+.sm a {
+  text-decoration: underline;
+  color: #d7d7d7;
+}
+
+.gamecube-online a:hover,
+.sm a:hover {
+  text-decoration: none;
+}
+
+.warp-zone a {
+  text-decoration: underline;
+  color: rgb(255, 235, 57);
+}
+
+.warp-zone a:hover {
+  text-decoration: none;
+  color: rgb(159, 243, 255);
+}
+
+@media(max-width: 650px) {
+  .main .welcome {
+    width: 91.0769230769%;
+  }
+
+  .welcome .gamecube-online {
+    margin-top: 24px;
+    margin-left: 2.3241%;
+  }
+
+  .welcome .sm {
+    margin-top: 87px;
+    margin-left: 2.3241%;
+  }
+
+  .welcome .warp-zone {
+    margin-top: 13px;
+    margin-left: 2.3241%;
+  }
+
+  ._container {
+    width: 171px;
+  }
+
+  ._container .logo-1 {
+    height: auto;
+  }
+
+  ._container .warp-pipe-1 {
+    display: none;
+    clear: both;
+    margin-top: -132px;
+    margin-left: 210px;
+    font-size: 2.913em;
+  }
+}
